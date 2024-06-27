@@ -8,12 +8,8 @@ import * as THREE from 'three'
 import { View } from "@react-three/drei";
 import { models, sizes } from "../constants"
 
-type Props = {
-    index: number;
-    // define your other props here
-}
 
-const Model = (props: Props) => {
+const Model = () => {
     const [size, setSize] = useState("small")
     const [model, setModel] = useState({
         title: 'iPhone Pro Titanium',
@@ -73,7 +69,7 @@ const Model = (props: Props) => {
                                 bottom: 0,
                                 overflow: "hidden",
                             }}
-                            eventSource={document.getElementById('root')!}
+                            eventSource={document.getElementById('root')}
                         >
                             <View.Port />
                         </Canvas>

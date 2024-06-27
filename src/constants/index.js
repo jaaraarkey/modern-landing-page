@@ -49,7 +49,7 @@ export const hightlightsSlides = [
 export const models = [
   {
     id: 1,
-    title: "iPhone 15 Pro in Natural Titanium",
+    title: "iPhone 15 Pro Titanium",
     color: ["#8F8A81", "#ffe7b9", "#6f6c64"],
     img: yellowImg,
   },
